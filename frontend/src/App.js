@@ -4,7 +4,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import CustomNavbar from './Navbar.jsx';
 import HeroSection from './HeroSection.js';
-import About from './About.js';
+import About from './About.jsx';
 import ExecutiveBoard from './Eboard.jsx';
 // function App() {
 //   return (
