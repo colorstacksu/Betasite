@@ -6,6 +6,7 @@ import gallery2 from "./assets/homepage_gallery/homepage_gallery2.jpg";
 import gallery3 from "./assets/homepage_gallery/homepage_gallery3.jpg";
 import gallery4 from "./assets/homepage_gallery/homepage_gallery4.jpg";
 import gallery5 from "./assets/homepage_gallery/homepage_gallery5.jpg";
+import { FaLinkedin, FaInstagram, FaMapMarkedAlt, FaDiscord } from 'react-icons/fa';
 
 import logo from './assets/ColorStack.png';
 
@@ -34,8 +35,17 @@ const About = () => {
           </Col>
         </Row>
       </Container> */}
-      <Container className="text-center my-5">
-        <h1>Empowering Black and Latino Students to Launch Successful Technical Careers</h1>
+      <Container className="text-center my-5" style={{backgroundImage:`url(${gallery1})`,
+    backgroundSize: 'cover',  // Ensures the background image covers the entire container
+    backgroundPosition: 'center',  // Centers the image
+    width: '100%', 
+    height: '400px', 
+    padding: '100px' // Adjust the height as needed
+    }}>
+        <div style={{display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center'}}><h1>Empowering Black and Latino Students to Launch Successful Technical Careers</h1>
+        </div>
         <p>Join ColorStack at Kennesaw State University</p>
         <Button variant="warning" className="mr-2">Join Us</Button>
         <Button variant="outline-warning">Learn More</Button>
@@ -115,22 +125,7 @@ const About = () => {
       </Container>
 
       {/* Footer */}
-      <Container fluid className="bg-light py-3">
-        <Row className="text-center mt-3">
-          {/* <Col><a href="#about">About</a></Col> */}
-          <Col><Image src= {logo} /></Col>
-          <Col>
-            <Row><h6 style={{color: "black"}}>Interested in joining ColorStack at KSU?</h6></Row>
-            <Row>Click the link below to go straight to our Discord community</Row>
-            <Button style={{borderRadius: "25px"}} variant="warning" href="path/to/discord">Join the ColorStack Discord!</Button>
-          </Col>
-          <Col><a href="#eboard">E-Board</a></Col>
-          <Col><a href="#sponsors">Sponsors</a></Col>
-        </Row>
-        <Row className="text-center mt-3">
-          <Col>Contact Us</Col>
-        </Row>
-      </Container>
+      
 
     </div>
   );

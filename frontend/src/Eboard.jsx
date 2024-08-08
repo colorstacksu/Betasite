@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Container, Button, Image, Row, Col, Card } from 'react-bootstrap';
 import CustomNavbar from './Navbar.jsx';
 import helenaImage from './assets/helena1.jpg';
 import geoImage from './assets/geo.jpg';
@@ -14,7 +14,9 @@ import philipImage from './assets/philip.jpg';
 import victorImage from './assets/victor1.jpg';
 import karringtonImage from './assets/karrington2.jpg';
 import eboardPic from './assets/atrium.jpg';
+import logo from './assets/ColorStack.png';
 import './App.css';
+import { FaLinkedin, FaInstagram, FaMapMarkedAlt, FaDiscord } from 'react-icons/fa';
 
 // const HeroSection = () => (
 //   <div className="hero-section" style={{ backgroundImage: 'url(/path/to/your/background-image.jpg)', padding: '100px 0', textAlign: 'center', color: '#fff' }}>

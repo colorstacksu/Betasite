@@ -6,6 +6,7 @@ import CustomNavbar from './Navbar.jsx';
 import HeroSection from './HeroSection.js';
 import About from './About.jsx';
 import ExecutiveBoard from './Eboard.jsx';
+import Footer from './Footer.jsx';
 // function App() {
 //   return (
 //     <div className="App">
@@ -19,7 +20,7 @@ import ExecutiveBoard from './Eboard.jsx';
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App" width="100%">
         <CustomNavbar />
         <Routes>
           <Route path="/" element={<HeroSection />} />
@@ -28,6 +29,7 @@ function App() {
           {/* Add more routes as needed */}
         </Routes>
       </div>
+      <Footer/>
     </Router>
   );
 }
