@@ -36,12 +36,12 @@ const CustomNavbar = () => {
       <Navbar.Brand as={Link} to="/">
         <img
           src={ColorStackLogo}
-          width="30"
-          height="30"
+          width="35"
+          height="35"
           className="d-inline-block align-top"
           alt="ColorStack logo"
         />{' '}
-        ColorStack
+        ColorStack KSU
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
