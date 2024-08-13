@@ -1,4 +1,5 @@
 import React from 'react';
+import './Events.css';
 import { Container, Row, Col, Card, Button, Carousel } from 'react-bootstrap';
 import './App.css'; // Ensure the CSS file is named correctly and includes necessary styles
 import Header from './assets/events1.jpg';

@@ -7,6 +7,7 @@ import HeroSection from './HeroSection.js';
 import About from './About.jsx';
 import ExecutiveBoard from './Eboard.jsx';
 import Footer from './Footer.jsx';
+import Events from './Events.jsx'
 // function App() {
 //   return (
 //     <div className="App">
@@ -26,6 +27,7 @@ function App() {
           <Route path="/" element={<HeroSection />} />
           <Route path="/about" element={<About />} />
           <Route path="/eboard" element={<ExecutiveBoard />} />
+          <Route path="/events" element={<Events />} />
           {/* Add more routes as needed */}
         </Routes>
       </div>
