@@ -21,8 +21,8 @@ const HeroSection = () => {
             <h1>Empowering Black and Latino Students to Launch Successful Technical Careers.</h1>
             <p>Join ColorStack at Kennesaw State University</p>
             <div>
-              <Button variant="warning" className="mr-3">Join Us</Button>
-              <Button variant="light">Learn More</Button>
+              <Button style={{marginLeft: '20px'}} href='https://owllife.kennesaw.edu/organization/colorstackksu' variant="warning" className="mr-3">Join Us</Button>
+              <Button style={{marginLeft: '20px'}} href='https://www.colorstack.org/' variant="light">Learn More</Button>
             </div>
           </Col>
         </Row>

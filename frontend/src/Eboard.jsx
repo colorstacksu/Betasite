@@ -1,20 +1,8 @@
 import React from 'react';
 import { Container, Button, Image, Row, Col, Card } from 'react-bootstrap';
 import CustomNavbar from './Navbar.jsx';
-import helenaImage from './assets/helena1.jpg';
-import geoImage from './assets/geo.jpg';
-import amiyahImage from './assets/amiyah1.jpg';
-import kevynImage from './assets/kevyn1.jpg';
-import denniseImage from './assets/dennise3.jpg';
-import denzelImage from './assets/denzel1.jpg';
-import ramonImage from './assets/ramon3.jpg';
-import lisbethImage from './assets/lisbeth.jpg';
-import constantImage from './assets/constant1.jpg';
-import philipImage from './assets/philip.jpg';
-import victorImage from './assets/victor1.jpg';
-import karringtonImage from './assets/karrington2.jpg';
-import eboardPic from './assets/atrium.jpg';
-import logo from './assets/ColorStack.png';
+import images from './Images.jsx';
+
 import './App.css';
 import { FaLinkedin, FaInstagram, FaMapMarkedAlt, FaDiscord } from 'react-icons/fa';
 
@@ -30,79 +18,79 @@ const ExecutiveBoard = () => {
     {
       name: 'Helena Patino Cruz',
       title: 'President',
-      imgSrc: helenaImage,
+      imgSrc: images.helenaImage,
       description: 'Software Engineering, May 2027'
     },
     {
       name: 'Geovanni Cuevas',
       title: 'Vice President',
-      imgSrc: geoImage,
+      imgSrc: images.geoImage,
       description: 'Computer Science, Dec 2025'
     },
     {
       name: 'Amiyah Richardson',
       title: 'Founder/Alumni Chair',
-      imgSrc: amiyahImage,
+      imgSrc: images.amiyahImage,
       description: 'BBA Information Systems, May 2024'
     },
     {
         name: 'Kevyn Lopez',
         title: 'Operations Chair',
-        imgSrc: kevynImage,
+        imgSrc: images.kevynImage,
         description: 'Computer Science, Dec 2025'
 
     },
     {
         name: 'Dennise Gonzales-Garcia',
         title: 'Secretary',
-        imgSrc: denniseImage,
+        imgSrc: images.denniseImage,
         description: 'Computer Science, May 2026'
 
     },
     {
         name: 'Lisbeth Martinez',
         title: 'Treasurer',
-        imgSrc: lisbethImage,
+        imgSrc: images.lisbethImage,
         description: 'Game Design & Dev., May 2026'
 
     },
     {
         name: 'Karrington Duggins',
         title: 'Internal Social Media Chair',
-        imgSrc: karringtonImage,
+        imgSrc: images.karringtonImage,
         description: 'Information Security, May 2025'
 
     },
     {
         name: 'Denzel Osei',
         title: 'Outreach Chair',
-        imgSrc: denzelImage,
+        imgSrc: images.denzelImage,
         description: 'Information Systems, May 2027'
 
     },
     {
         name: 'Ramon Mandujano III',
         title: 'External Social Media Chair',
-        imgSrc: ramonImage,
+        imgSrc: images.ramonImage,
         description: 'Computer Science, May 2026'
 
     },
     {
       name: 'Constant Nortey Jr.',
       title: 'Academic Chair',
-      imgSrc: constantImage,
+      imgSrc: images.constantImage,
       description: 'Software Engineer, May 2026'
     },
     {
       name: 'Philip Nsajja',
       title: 'Membership Chair',
-      imgSrc: philipImage,
+      imgSrc: images.philipImage,
       description: 'Computer Science, May 2026'
     },
     {
       name: 'Victor Urey',
       title: 'Academic Chair',
-      imgSrc: victorImage,
+      imgSrc: images.victorImage,
       description: 'Computer Science, May 2026'
     },
   ];
@@ -113,7 +101,7 @@ const ExecutiveBoard = () => {
   return (
     <Container className="mt-5" >
       <div className="hero-section" 
-        style={{ backgroundImage: `url(${eboardPic})`, 
+        style={{ backgroundImage: `url(${images.eboardPic})`, 
           backgroundSize: '100%', 
           padding: '100px 0', 
           textAlign: 'center', 

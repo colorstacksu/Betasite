@@ -37,3 +37,8 @@
     transform: rotate(360deg);
   }
 }
+
+.homeButtons{
+  margin-left: 10px;
+  margin-right: 10px;
+}
