@@ -41,7 +41,7 @@ const CustomNavbar = () => {
           className="d-inline-block align-top"
           alt="ColorStack logo"
         />{' '}
-        ColorStack
+        ColorStack KSU
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

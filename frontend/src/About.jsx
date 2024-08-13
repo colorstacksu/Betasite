@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Container, Navbar, Nav, Button, Row, Col, Card, Image, Section } from 'react-bootstrap';
+import { Container, Navbar, Nav, Button, Row, Col, Card, Image, Section, Carousel } from 'react-bootstrap';
 import about from './assets/atrium.jpg';
 import gallery1 from "./assets/homepage_gallery/homepage_gallery1.jpg";
 import gallery2 from "./assets/homepage_gallery/homepage_gallery2.jpg";
@@ -14,14 +14,22 @@ import { FaLinkedin, FaInstagram, FaMapMarkedAlt, FaDiscord } from 'react-icons/
 
 import logo from './assets/ColorStack.png';
 
+const pastEventsImages = [
+  gallery1,
+  gallery5,
+  gallery4,
+  // Include up to 10 image paths
+];
+
 const About = () => {
   return (
     <div className="hero-section">
       <div className="homepage-image">
         <Container className='main-img-txt'>
-          <h1>Empowering Black and Latino Students to Launch Successful Technical Careers</h1>          
+          <Card.Text className='stats-txt'><h1 style={{fontSize:'2.5rem'}}>Empowering Black and Latino Students to Launch Successful Technical Careers</h1> 
+           </Card.Text>
           <p>Join ColorStack at Kennesaw State University</p>
-          <Button variant="warning">Join Us</Button>
+          <Button variant="warning" className='join-us-btn'>Join Us</Button>
           <Button variant="outline-warning" className='learn-more-btn'>Learn More</Button>
         </Container>
       </div>
@@ -34,7 +42,7 @@ const About = () => {
               <Card.Body>
                 <img src={graduation} className="stats-img" />
                 <Card.Title className='stats-num'>90%</Card.Title>
-                <Card.Title className='stats-txt'>of our members identify as Black & Latinx</Card.Title>
+                <Card.Text className='stats-txt'>of our members identify as Black & Latinx</Card.Text>
               </Card.Body>
             </Card>
           </Col>
@@ -43,7 +51,7 @@ const About = () => {
               <Card.Body>
                 <img src={computer} className="stats-img" />
                 <Card.Title className='stats-num'>89%</Card.Title>
-                <Card.Title className='stats-txt'>members study Computer Science, Information Systems, or Computer Engineering</Card.Title>
+                <Card.Text className='stats-txt'>members study Computer Science, Information Systems, or Computer Engineering</Card.Text>
               </Card.Body>
             </Card>
           </Col>
@@ -66,7 +74,7 @@ const About = () => {
       </div>
 
       {/* Gallery */}
-      <div className="gallery">
+      {/* <div className="gallery">
         <h2>Our Gallery</h2>
         <Row>
           <Col md={2}><Image src= {gallery1} thumbnail /></Col>
@@ -75,7 +83,24 @@ const About = () => {
           <Col md={2}><Image src= {gallery4} thumbnail /></Col>
           <Col md={2}><Image src= {gallery5} thumbnail /></Col>
         </Row>
-      </div>
+      </div> */}
+
+      {/* Past Events Carousel */}
+      <Container className="my-5">
+        <h2 className="text-center">Past Events</h2>
+        <Carousel>
+          {pastEventsImages.slice(0, 10).map((image, index) => (
+            <Carousel.Item key={index}>
+              <img
+                className="d-block w-100"
+                src={image}
+                alt={`Past Event ${index + 1}`}
+                style={{ height: '100%' }}
+              />
+            </Carousel.Item>
+          ))}
+        </Carousel>
+      </Container>
 
       {/* Upcoming Events */}
       <Container className="my-5">

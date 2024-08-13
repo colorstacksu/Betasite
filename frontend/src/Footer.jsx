@@ -22,7 +22,7 @@ const Footer = () => {
           </ul>
           </Col>
           <Col><h4>Contact Us</h4>
-          <a style={{color: 'inherit'}} href='mailto:colortstacksu@gmail.com'>colorstacksu@gmail.com</a>
+          <div style={{marginBottom:'10px'}}><a style={{color: 'inherit'}} href='mailto:colortstacksu@gmail.com'>colorstacksu@gmail.com</a></div>
           <Row className="justify-content-center">
             <Col xs="auto" > <a href="https://discord.gg/Hhb4paWq"><FaDiscord size={40}/></a></Col>
             <Col xs="auto"> <a href="https://www.instagram.com/colorstackatksu?igsh=d2JneHA2dHgyNHhj"><FaInstagram size={40}/></a></Col>

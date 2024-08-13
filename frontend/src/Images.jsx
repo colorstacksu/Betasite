@@ -1,5 +1,5 @@
 import helenaImage from './assets/headshots/helena1.jpg';
-import geoImage from './assets/headshots/geo.jpg';
+import geoImage from './assets/headshots/geo1.jpg';
 import amiyahImage from './assets/headshots/amiyah1.jpg';
 import kevynImage from './assets/headshots/kevyn1.jpg';
 import denniseImage from './assets/headshots/dennise3.jpg';
@@ -12,6 +12,7 @@ import victorImage from './assets/headshots/victor1.jpg';
 import karringtonImage from './assets/headshots/karrington2.jpg';
 import eboardPic from './assets/atrium.jpg';
 import logo from './assets/ColorStack.png';
+import events6 from './assets/events6.jpeg'
 
 const images = {
   helenaImage,
@@ -27,7 +28,8 @@ const images = {
   victorImage,
   karringtonImage,
   eboardPic,
-  logo
+  logo,
+  events6
 };
 
 export default images;
