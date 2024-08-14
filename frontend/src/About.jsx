@@ -109,13 +109,13 @@ const About = () => {
           <Col md={6}>
             <Card>
               <Card.Body>
-                <Card.Title>Event Name</Card.Title>
-                <Card.Text>Short summary about the event to get peoples attention</Card.Text>
+                <Card.Title>General Board Meeting</Card.Title>
+                <Card.Text style={{textAlign:'center'}}>Join us for our first General Board Meeting of the Year on <b>20th August, 2024</b> at <b>Atrium Building 131</b></Card.Text>
                 <Button variant="outline-warning">Add event to calendar</Button>
               </Card.Body>
             </Card>
           </Col>
-          <Col md={6}>
+          {/* <Col md={6}>
             <Card>
               <Card.Body>
                 <Card.Title>Event Name</Card.Title>
@@ -123,7 +123,7 @@ const About = () => {
                 <Button variant="outline-warning">Add event to calendar</Button>
               </Card.Body>
             </Card>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
 
