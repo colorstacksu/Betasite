@@ -17,7 +17,7 @@ const HeroSection = () => {
       >
         <Row>
           <Col>
-          <Card.Text className='stats-txt'><h1 style={{fontSize:'2.5rem'}}>Welcome to ColorStcak KSU!</h1> 
+          <Card.Text className='stats-txt'><h1 style={{fontSize:'2.5rem'}}>Welcome to ColorStack KSU!</h1> 
           <p>Join ColorStack at Kennesaw State University</p>
            </Card.Text>
             
