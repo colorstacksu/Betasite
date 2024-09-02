@@ -2,17 +2,15 @@ import React from 'react';
 import './App.css';
 import { Container, Navbar, Nav, Button, Row, Col, Card, Image, Section, Carousel } from 'react-bootstrap';
 import images from './Images';
-import gallery1 from "./assets/homepage_gallery/homepage_gallery1.jpg";
-import gallery4 from "./assets/homepage_gallery/homepage_gallery4.jpg";
-import gallery5 from "./assets/homepage_gallery/homepage_gallery5.jpg";
 import graduation from "./assets/icons/graduation.png";
 import girl from "./assets/icons/girl_symbol.png";
 import { FaLinkedin, FaInstagram, FaMapMarkedAlt, FaDiscord } from 'react-icons/fa';
 
 const pastEventsImages = [
-  gallery1,
-  gallery5,
-  gallery4,
+  images.event1,
+  images.event2,
+  images.event3,
+  images.homepage,
   images.event4
   // Include up to 10 image paths
 ];

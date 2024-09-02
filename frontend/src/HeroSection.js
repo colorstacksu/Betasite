@@ -1,13 +1,13 @@
 import React from 'react';
 import { Container, Row, Col, Button, Card } from 'react-bootstrap';
-import homepage from './assets/homepage.jpeg';
+import images from './Images';
 
 const HeroSection = () => {
   return (
     <div className="hero-section" style={{ position: 'relative', textAlign: 'center', color: 'white' }}>
       <br></br>
       <img
-        src={homepage}
+        src={images.homepage}
         alt="Background"
         style={{ width: '100%', height: 'auto', filter: 'brightness(50%)' }}
       />
