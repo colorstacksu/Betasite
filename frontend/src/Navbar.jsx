@@ -1,9 +1,7 @@
 import React from 'react';
 import { Navbar, Nav, Button } from 'react-bootstrap';
-import ColorStackLogo from './assets/ColorStack.png';
-import About from './About.jsx';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+import images from './Images.jsx';
 
 // const CustomNavbar = () => {
 //   return (
@@ -35,7 +33,7 @@ const CustomNavbar = () => {
     <Navbar bg="light" expand="lg">
       <Navbar.Brand as={Link} to="/">
         <img
-          src={ColorStackLogo}
+          src={images.colorstackLogo}
           width="30"
           height="30"
           className="d-inline-block align-top"

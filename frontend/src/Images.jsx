@@ -11,8 +11,9 @@ import philipImage from './assets/headshots/philip.jpg';
 import victorImage from './assets/headshots/victor1.jpg';
 import karringtonImage from './assets/headshots/karrington2.jpg';
 import eboardPic from './assets/atrium.jpg';
-import logo from './assets/ColorStack.png';
-import events6 from './assets/events6.jpeg'
+import computerIcon from './assets/icons/computer.png'
+import colorstackLogo from './assets/icons/ColorStack.png'
+import event4 from './assets/event4.jpeg'
 
 const images = {
   helenaImage,
@@ -28,8 +29,9 @@ const images = {
   victorImage,
   karringtonImage,
   eboardPic,
-  logo,
-  events6
+  computerIcon,
+  colorstackLogo,
+  event4
 };
 
 export default images;
