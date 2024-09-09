@@ -76,7 +76,7 @@ const ExecutiveBoard = () => {
 
     },
     {
-      name: 'Constant Nortey Jr.',
+      name:  'Constant Nortey Jr.',
       title: 'Academic Chair',
       imgSrc: images.constantImage,
       description: 'Software Engineer, May 2026'
