@@ -2,7 +2,7 @@ import React from 'react';
 import './Events.css';
 import { Container, Row, Col, Card, Button, Carousel } from 'react-bootstrap';
 import './App.css'; // Ensure the CSS file is named correctly and includes necessary styles
-import Header from './assets/events6.jpeg';
+import images from './Images';
 
 const upcomingEvents = [
   { id: 1, date: 'APR 06', title: 'LinkedIn Profile Power Up!', description: 'Short summary about the event to get peoples attention', imageUrl: '/path/to/image.jpg' },
@@ -28,7 +28,7 @@ const Events = () => {
   return (
     <div className="events-section">
         <div className="hero-section" 
-        style={{ backgroundImage: `url(${Header})`, 
+        style={{ backgroundImage: `url(${images.event4})`, 
             backgroundSize: '100%', // Adjusts the size of the background image
             padding: '100px 0', 
             textAlign: 'center', 

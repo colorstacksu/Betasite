@@ -31,7 +31,7 @@ function App() {
           {/* Add more routes as needed */}
         </Routes>
       </div>
-      <Footer/>
+      <Footer className="footer-size"/>
     </Router>
   );
 }

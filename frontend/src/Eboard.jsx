@@ -76,8 +76,13 @@ const ExecutiveBoard = () => {
 
     },
     {
+<<<<<<< HEAD
       name:  'Constant Nortey Jr.',
       title: 'Academic Chair',
+=======
+      name: 'Constant Nortey Jr.',
+      title: 'Software Chair',
+>>>>>>> d7e46501e713441e546d510279657b059348d5db
       imgSrc: images.constantImage,
       description: 'Software Engineer, May 2026'
     },

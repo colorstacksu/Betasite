@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+=======
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .event-card {
+    width: 300px ;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .event-info {
+    padding: 10px;
+  }
+  
+  
+>>>>>>> d7e46501e713441e546d510279657b059348d5db

@@ -11,8 +11,13 @@ import philipImage from './assets/headshots/philip.jpg';
 import victorImage from './assets/headshots/victor1.jpg';
 import karringtonImage from './assets/headshots/karrington2.jpg';
 import eboardPic from './assets/atrium.jpg';
-import logo from './assets/ColorStack.png';
-import events6 from './assets/events6.jpeg'
+import computerIcon from './assets/icons/computer.png'
+import colorstackLogo from './assets/icons/ColorStack.png'
+import homepage from './assets/homepage_gallery/homepage.jpg'
+import event1 from './assets/eventPics/event1.jpg'
+import event2 from './assets/eventPics/event2.jpg'
+import event3 from './assets/eventPics/event3.jpg'
+import event4 from './assets/eventPics/event4.jpeg'
 
 const images = {
   helenaImage,
@@ -28,8 +33,13 @@ const images = {
   victorImage,
   karringtonImage,
   eboardPic,
-  logo,
-  events6
+  computerIcon,
+  colorstackLogo,
+  homepage,
+  event1,
+  event2,
+  event3,
+  event4
 };
 
 export default images;
