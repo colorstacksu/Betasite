@@ -79,7 +79,7 @@ const ExecutiveBoard = () => {
       name: 'Constant Nortey Jr.',
       title: 'Software Chair',
       imgSrc: images.constantImage,
-      description: 'Software Engineer, May 2026'
+      description: 'Software Engineering, May 2026'
     },
     {
       name: 'Philip Nsajja',
