@@ -94,7 +94,9 @@ const ExecutiveBoard = () => {
       description: 'Computer Science, May 2026'
     },
   ];
+
   const rows = [];
+  
   for (let i = 0; i < boardMembers.length; i += 3) {
     rows.push(boardMembers.slice(i, i + 3));
   }
