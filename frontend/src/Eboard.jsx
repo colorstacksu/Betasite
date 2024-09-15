@@ -4,7 +4,6 @@ import CustomNavbar from './Navbar.jsx';
 import images from './Images.jsx';
 
 import './App.css';
-import { FaLinkedin, FaInstagram, FaMapMarkedAlt, FaDiscord } from 'react-icons/fa';
 
 // const HeroSection = () => (
 //   <div className="hero-section" style={{ backgroundImage: 'url(/path/to/your/background-image.jpg)', padding: '100px 0', textAlign: 'center', color: '#fff' }}>
