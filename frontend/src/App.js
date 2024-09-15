@@ -7,7 +7,7 @@ import HeroSection from './HeroSection.js';
 import About from './About.jsx';
 import ExecutiveBoard from './Eboard.jsx';
 import Footer from './Footer.jsx';
-import Events from './Events.jsx'
+import Events from './Events.jsx';
 // function App() {
 //   return (
 //     <div className="App">
