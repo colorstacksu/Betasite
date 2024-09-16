@@ -6,4 +6,4 @@ It will:
 - Give an overview of the goal of ColorStck KSU as well as provide access to Information about the ColorStack National Organization
 - Provide access to registration of member
 
-Currently Live at : https://colorstacksu-topaz.vercel.app/
+Currently Live at : https://colorstacksu.vercel.app/
