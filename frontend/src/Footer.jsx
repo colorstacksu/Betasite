@@ -18,7 +18,7 @@ const Footer = () => {
           <Button
             style={{ borderRadius: "25px", marginTop: "20px" }}
             variant="warning"
-            href="path/to/discord"
+            href="https://discord.gg/ZuJK8SdUVa"
             size="sm"
           >
             Join the ColorStack Discord!
@@ -76,7 +76,7 @@ const Footer = () => {
           </div>
           <Row className="justify-content-center">
             <Col xs="auto">
-              <a href="https://discord.gg/Hhb4paWq">
+              <a href="https://discord.gg/ZuJK8SdUVa">
                 <FaDiscord size={30} />
               </a>
             </Col>
