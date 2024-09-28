@@ -105,12 +105,14 @@
 }
 
 .learn-more-btn{
-  margin-left: 0.3rem;
+  margin-left: 1rem;
   background-color: rgb(243, 243, 243);
+  margin-top: 5px;
 }
 
 .join-us-btn{
   margin-left: 1rem;
+  margin-bottom: 5px;
 }
 
 .stats-num{
