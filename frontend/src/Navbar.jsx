@@ -33,22 +33,22 @@ const CustomNavbar = () => {
     <Navbar bg="light" expand="lg">
       <Navbar.Brand as={Link} to="/">
         <img
-          src={images.colorstackLogo}
+          src={images.OwlKSU}
           width="30"
           height="30"
           className="d-inline-block align-top"
           alt="ColorStack logo"
         />{' '}
-        ColorStack KSU
+        <span className='navbar-brand-text'>ColorStack at KSU</span>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
           <Nav.Link as={Link} to="/about">About</Nav.Link>
-          {/* <Nav.Link as={Link} to="/events">Events</Nav.Link> */}
+          <Nav.Link as={Link} to="/events">Events</Nav.Link>
           <Nav.Link as={Link} to="/eboard">E-Board</Nav.Link>
-          {/* <Nav.Link as={Link} to="/sponsors">Sponsors</Nav.Link> */}
-          <Button variant="warning" className="ms-2">Contact</Button>
+          <Nav.Link as={Link} to="/sponsors" style={{backgroundColor:"gold", borderRadius:"10px"}}>Sponsors</Nav.Link>
+          {/* <Button variant="warning" className="ms-2">Contact</Button> */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>

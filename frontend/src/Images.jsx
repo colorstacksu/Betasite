@@ -18,6 +18,22 @@ import event1 from './assets/eventPics/event1.jpg'
 import event2 from './assets/eventPics/event2.jpg'
 import event3 from './assets/eventPics/event3.jpg'
 import event4 from './assets/eventPics/event4.jpeg'
+import UberCareerFair from './assets/Flyers/UberCareerFair.png'
+import UpPanel from './assets/Flyers/UpPanel.png'
+import WelcomeBack from './assets/Flyers/WelcomeBack.png'
+import GoogleResume from './assets/Flyers/GoogleResume.png'
+import ResumeWorkshop from './assets/Flyers/ResumeWorkshop.png'
+import IceCreamSocial from './assets/Flyers/IceCreamSocial.png'
+import LeetCodeSesh from './assets/Flyers/LeetCodeSesh.png'
+import event5 from './assets/eventPics/event5.jpg'
+import UberLogo from './assets/icons/UberLogo.png'
+import OwlKSU from './assets/icons/OwlKSU.png'
+import NvidiaLogo from './assets/icons/NvidiaLogo.png'
+import ColorstackBackground from './assets/icons/ColorstackBackground.png'
+import LateNightNvidia from './assets/Flyers/LateNightNvidia.png'
+import TechPrepSHPEATT from './assets/Flyers/TechPrepSHPEATT.png'
+import StudySesh1008 from './assets/Flyers/StudySesh1008.png'
+import homepage1 from './assets/homepage_gallery/homepage_gallery1.jpeg'
 
 const images = {
   helenaImage,
@@ -39,7 +55,23 @@ const images = {
   event1,
   event2,
   event3,
-  event4
+  event4,
+  event5,
+  UberLogo,
+  NvidiaLogo,
+  LateNightNvidia,
+  UberCareerFair,
+  UpPanel,
+  StudySesh1008,
+  TechPrepSHPEATT,
+  WelcomeBack,
+  GoogleResume,
+  ResumeWorkshop,
+  IceCreamSocial,
+  LeetCodeSesh,
+  OwlKSU,
+  ColorstackBackground,
+  homepage1
 };
 
 export default images;

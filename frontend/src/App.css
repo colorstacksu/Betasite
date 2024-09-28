@@ -1,6 +1,9 @@
+
 .App {
   text-align: center;
   width: 100%;
+  background: url("./assets/icons/ColorstackBackground.png");
+  background-size: 35rem;
 }
 
 .App-logo {
@@ -38,12 +41,27 @@
   }
 }
 
+.navbar-brand-text {
+  font-size: 1.1rem;        /* Initial font size */
+  transition: font-size 0.3s ease-in-out;  /* Smooth transition */
+}
+
+.navbar-brand-text:hover {
+  font-size: 1.4rem;      /* Increased font size on hover */
+}
+
 .homeButtons{
   margin-left: 10px;
   margin-right: 10px;
 }
 
 .hero-section{
+  position: 'relative';
+  text-align: 'left';
+  color: 'white';
+  margin: 0px;
+}
+.hero-section-events{
   position: 'relative';
   text-align: 'left';
   color: 'white';
@@ -128,7 +146,7 @@
 
 .mission{
   text-align: left;
-  background-color: #FBF7D0;
+  /* background-color: #FBF7D0; */
   padding-top: 2%;
   padding-bottom: 2%;
   padding-left: 5%;
@@ -156,4 +174,129 @@
 
 .footer-size{
   height: auto;
+}
+
+
+/* for About.jsx */
+.main-img-txt {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeIn 1.5s ease-out forwards;
+}
+
+.stats-txt h1 {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-out forwards;
+  animation-delay: 0.3s;
+}
+
+p {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
+.join-us-btn {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-out forwards;
+  animation-delay: 0.7s;
+}
+
+.learn-more-btn {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-out forwards;
+  animation-delay: 0.9s;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* for About Stat */
+.stats .col-md-4 {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeSlideIn 1.5s ease-out forwards;
+}
+
+.stats .col-md-4:nth-child(1) {
+  animation-delay: 0.4s; /* First column */
+}
+
+.stats .col-md-4:nth-child(2) {
+  animation-delay: 0.6s; /* Second column */
+}
+
+.stats .col-md-4:nth-child(3) {
+  animation-delay: 0.8s; /* Third column */
+}
+
+@keyframes fadeSlideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.custom-h1 {
+  font-size: 3em; /* Adjust size as needed */
+  color: #4A90E2; /* Main text color */
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: linear-gradient(135deg, #00C9FF 0%, #92FE9D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fadeIn 1s ease-in-out;
+  padding: 20px;
+  border-bottom: 4px solid #ffcc00; /* Underline effect */
+}
+
+.eboard-custom-h1 {
+  font-size: 2em; /* Adjust size as needed */
+  color: #4A90E2; /* Main text color */
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: linear-gradient(135deg, #00C9FF 0%, #92FE9D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fadeIn 1s ease-in-out;
+  padding: 20px;
+  border-bottom: 4px solid #ffcc00; /* Underline effect */
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
+}
+
+.owlPic{
+  width: 5rem;
+}
+
+/* NEW CSS */
+
+.rsvpButton{
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  font-size: 0.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 2vw 10px;
 }

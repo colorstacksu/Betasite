@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+This Website consists of 5 pages namely:
+- Homepage 
+- About..
+
+# About
+
+This page is used to display the history of the chapter ans well as show some statistics 
+## Features
+- Cover Page: This page begins by dispaly a cover picture of our chapter with Text and Buttons fading in 
+- Join Us Button: This button will send the user to the Owl Life page which enables them to re
