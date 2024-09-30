@@ -122,6 +122,11 @@ const ExecutiveBoard = () => {
         }}
       >
         <h1 class="custom-h1">Meet Our Eboard</h1>
+        <img style={{
+                width: "60vw",
+                height: "auto",
+                filter: "brightness(70%)",
+              }} src={images.eboard1} alt="" />
       </div>
       {rows.map((row, rowIndex, team) => (
         <Row

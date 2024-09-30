@@ -34,6 +34,8 @@ import LateNightNvidia from "./assets/Flyers/LateNightNvidia.png";
 import TechPrepSHPEATT from "./assets/Flyers/TechPrepSHPEATT.png";
 import StudySesh1008 from "./assets/Flyers/StudySesh1008.png";
 import homepage1 from "./assets/homepage_gallery/homepage_gallery1.jpeg";
+import eboard1 from "./assets/eboard/eboard1.JPG"
+import eboard2 from "./assets/eboard/eboard2.JPG"
 
 const images = {
   helenaImage,
@@ -72,6 +74,8 @@ const images = {
   OwlKSU,
   ColorstackBackground,
   homepage1,
+  eboard1,
+  eboard2
 };
 
 export default images;

@@ -114,7 +114,7 @@ const HeroSection = () => {
           {/* Column for the image */}
           <Col md={8} className="d-flex justify-content-start">
             <img
-              src={images.homepage}
+              src={images.eboard1}
               alt="Background"
               style={{
                 width: "60vw",

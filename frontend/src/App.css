@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
   width: 100%;
@@ -69,9 +70,11 @@
 
 .homepage-image {
   background: url("./assets/transparentHomepageImg.png");
+  /* background: url("./assets/eboard/eboard2.JPG"); */
   background-size: cover;
   height: 100vh;
   object-fit: cover;
+  margin-bottom: 25px;
 }
 
 .hero-section h1 {
@@ -107,10 +110,12 @@
   margin-left: 1rem;
   background-color: rgb(243, 243, 243);
   margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 .join-us-btn {
   margin-left: 1rem;
+  margin-top: 0px;
   margin-bottom: 5px;
 }
 
