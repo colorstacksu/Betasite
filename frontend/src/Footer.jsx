@@ -27,7 +27,7 @@ const Footer = () => {
               <a
                 className="text-decoration-none"
                 style={{ color: "inherit" }}
-                href="#eboard"
+                href="./about"
               >
                 About
               </a>
@@ -36,7 +36,7 @@ const Footer = () => {
               <a
                 className="text-decoration-none"
                 style={{ color: "inherit" }}
-                href="#events"
+                href="./events"
               >
                 Events
               </a>
@@ -45,7 +45,7 @@ const Footer = () => {
               <a
                 className="text-decoration-none"
                 style={{ color: "inherit" }}
-                href="#eboard"
+                href="./eboard"
               >
                 E-Board
               </a>
@@ -54,7 +54,7 @@ const Footer = () => {
               <a
                 className="text-decoration-none"
                 style={{ color: "inherit" }}
-                href="#sponsors"
+                href="./sponsors"
               >
                 Sponsors
               </a>

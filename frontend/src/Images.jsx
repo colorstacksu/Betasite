@@ -36,6 +36,8 @@ import StudySesh1008 from "./assets/Flyers/StudySesh1008.png";
 import homepage1 from "./assets/homepage_gallery/homepage_gallery1.jpeg";
 import eboard1 from "./assets/eboard/eboard1.JPG"
 import eboard2 from "./assets/eboard/eboard2.JPG"
+import GBM from "./assets/Flyers/GBM.png"
+import SpookyMovNight from "./assets/Flyers/SpookyMovNight.png"
 
 const images = {
   helenaImage,
@@ -75,7 +77,9 @@ const images = {
   ColorstackBackground,
   homepage1,
   eboard1,
-  eboard2
+  eboard2,
+  GBM,
+  SpookyMovNight
 };
 
 export default images;

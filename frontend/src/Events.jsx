@@ -4,42 +4,40 @@ import { Container, Row, Col, Card, Button, Carousel } from "react-bootstrap";
 import "./App.css"; // Ensure the CSS file is named correctly and includes necessary styles
 import images from "./Images";
 import { SiGooglecalendar, SiMicrosoftoutlook } from "react-icons/si";
+import { AddToCalendarButton } from 'add-to-calendar-button-react';
 
 const upcomingEvents = [
   {
     id: 1,
-    date: "SEP 30",
-    title: "Late Night w/ Nvidia",
+    date: "2024-10-15",
+    startTime: "15:00",
+    endTime: "16:00",
+    title: "General Board Meeting",
+    location: "Atrium Building Room 130",
     description:
-      "Interested in Nvidia? Join us for a chat with an engineer and recruiter from Nvidia",
-    imageUrl: images.LateNightNvidia,
-    calendarLink:
-      "https://calendar.google.com/calendar/u/0/r/eventedit?text=Late+Night+With+Nvidia&dates=20240930T230000Z/20241001T010000Z&details=Event+Details&location=ETC+Room+106",
-    calendarLink2:
-      "https://outlook.office.com/calendar/0/deeplink/compose?subject=Late+Night+With+Nvidia&body=Event+Details&location=ETC+Room+106&startdt=2024-09-30T23:00:00Z&enddt=2024-09-31T01:00:00Z",
+      "Come out for our October GBM and get informed on behavioral interview prep with Factset!",
+    imageUrl: images.GBM,
   },
   {
     id: 2,
-    date: "OCT 01",
-    title: "Technical Interview Prep ",
+    date: "2024-10-23",
+    startTime: "12:00",
+    endTime: "13:00",
+    location: "Atrium Building Room 131",
+    title: "Leetcode Learning Session",
     description:
-      "Get prepared for technical interviews with Colorstack x SHPE x AT&T",
-    imageUrl: images.TechPrepSHPEATT,
-    calendarLink:
-      "https://calendar.google.com/calendar/u/0/r/eventedit?text=Technical+Interview+Prep&dates=20241001T230000Z/20241002T010000Z&details=Event+Details&location=Atrium+Building+Room+131",
-    calendarLink2:
-      "https://outlook.office.com/calendar/0/deeplink/compose?subject=Technical+Interview+Prep&body=Event+Details&location=Atrium+Building+Room+131&startdt=2024-10-01T23:00:00Z&enddt=2024-10-02T01:00:00Z",
+      "Join us for the second session in our leetcode series! Learn about leetcode and work in groups fofr solutions",
+    imageUrl: images.LeetCodeSesh,
   },
   {
     id: 3,
-    date: "OCT 08",
-    title: "Study Session",
-    description: "Come study with other Colorstack members",
-    imageUrl: images.StudySesh1008,
-    calendarLink:
-      "https://calendar.google.com/calendar/u/0/r/eventedit?text=Study+Session&dates=20241008T230000Z/20241009T010000Z&details=Event+Details&location=Atrium+Building+Room+157",
-    calendarLink2:
-      "https://outlook.office.com/calendar/0/deeplink/compose?subject=Study+Session&body=Event+Details&location=Atrium+Building+Room+157&startdt=2024-10-08T23:00:00Z&enddt=2024-10-09T01:00:00Z",
+    date: "2024-10-29",
+    startTime: "18:30",
+    endTime: "19:30",
+    location: "ETC+Room+106",
+    title: "Spooky Boots Movie Night",
+    description: "Joim us for a scary time with a spooky movie screening!",
+    imageUrl: images.SpookyMovNight
   },
 ];
 
@@ -56,6 +54,8 @@ const pastEventsImages = [
   images.ResumeWorkshop,
   images.IceCreamSocial,
   images.LeetCodeSesh,
+  images.TechPrepSHPEATT,
+  images.LateNightNvidia
   // Include up to 10 image paths
 ];
 
@@ -131,7 +131,7 @@ const Events = () => {
                 <Card.Body>
                   <Card.Title>{event.title}</Card.Title>
                   <Card.Text>{event.description}</Card.Text>
-                  <a href={event.calendarLink} target="_blank">
+                  {/* <a href={event.calendarLink} target="_blank">
                     <SiGooglecalendar
                       style={{
                         width: "40px",
@@ -139,8 +139,8 @@ const Events = () => {
                         marginRight: "10px",
                       }}
                     />
-                  </a>
-                  <a href={event.calendarLink2} target="_blank">
+                  </a> */}
+                  {/* <a href={event.calendarLink2} target="_blank">
                     <SiMicrosoftoutlook
                       style={{
                         width: "40px",
@@ -148,9 +148,22 @@ const Events = () => {
                         marginLeft: "10px",
                       }}
                     />
-                  </a>
+                  </a> */}
                   {/* <Button href={event.calendarLink} variant="outline-warning">Add event to calendar</Button> */}
-                  <p>Add to Calendar</p>
+                  <br />
+                  <div className="d-flex justify-content-center">
+                    <AddToCalendarButton
+                      name={event.title}
+                      startDate={event.date}
+                      startTime={event.startTime}
+                      endTime={event.endTime}
+                      location={event.location}
+                      options={['Apple','Google','Outlook.com','iCal']}
+                      timeZone="America/New_York"
+                    />
+                    </div>
+                   {/*Might need to install using npm install add-to-calendar-button-react in terminal */}
+                  {/* <strong>Add to Calendar</strong> */}
                 </Card.Body>
               </Card>
             </Col>
@@ -183,7 +196,7 @@ const Events = () => {
           {/* First Carousel */}
           <Col md={6}>
             <Carousel>
-              {pastEventsImages.slice(0, 3).map((image, index) => (
+              {pastEventsImages.slice(0, 4).map((image, index) => (
                 <Carousel.Item key={index}>
                   <img
                     className="d-block w-100 img-inc"
@@ -199,7 +212,7 @@ const Events = () => {
           {/* Second Carousel */}
           <Col md={6}>
             <Carousel>
-              {pastEventsImages.slice(3, 6).map((image, index) => (
+              {pastEventsImages.slice(4, 8).map((image, index) => (
                 <Carousel.Item key={index}>
                   <img
                     className="d-block w-100 img-inc"

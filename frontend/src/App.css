@@ -247,6 +247,7 @@ p {
 }
 
 .custom-h1 {
+  margin-top: 20px;
   font-size: 3em; /* Adjust size as needed */
   color: #4a90e2; /* Main text color */
   text-align: center;
