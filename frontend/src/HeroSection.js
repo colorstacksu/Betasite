@@ -178,43 +178,14 @@ const HeroSection = () => {
                 style={{ fontSize: "2vw" }}
                 onClick={() =>
                   window.open(
-                    "https://docs.google.com/forms/d/e/1FAIpQLSepWziFmDtZJE4kr3u33wStPJLi9aryICe2U4X3XyGe-QU3fw/viewform",
+                    "https://docs.google.com/forms/d/e/1FAIpQLScVMfaa6naC0ox-SPmqp7LXF4fRPRy5tQcxxxkYLzJJ18L7-Q/viewform",
                     "_blank"
                   )
                 }
               >
-                RSVP: Late Night With Nvidia
+                RSVP: October GBM
               </button>
-
-              {/* Second Button */}
-
-              <button
-                className="rsvpButton"
-                style={{ fontSize: "2vw" }}
-                onClick={() =>
-                  window.open(
-                    "https://docs.google.com/forms/d/e/1FAIpQLSf5il9DFL0tApbIdG43HDt2e4mc_y1s0sakRbjzWCnPj9IIMg/viewform",
-                    "_blank"
-                  )
-                }
-              >
-                RSVP: Technical Interview Prep w SHPE x AT&T
-              </button>
-
-              {/* Third Button */}
-
-              <button
-                className="rsvpButton"
-                style={{ fontSize: "2vw" }}
-                onClick={() =>
-                  window.open(
-                    "https://docs.google.com/forms/d/e/1FAIpQLSeKRqPVA_j2Hz8yBEs6q53PiRJ-DcQYIDsUjIdwoneLm_du-Q/viewform",
-                    "_blank"
-                  )
-                }
-              >
-                RSVP: Upperclassmen Panel
-              </button>
+            
             </Row>
           </div>
         </Col>
