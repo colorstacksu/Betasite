@@ -158,7 +158,7 @@ const Events = () => {
                       startTime={event.startTime}
                       endTime={event.endTime}
                       location={event.location}
-                      options={['Apple','Google','Outlook.com','iCal', 'Microsoft365']}
+                      options={['Apple','Google','iCal', 'Outlook.com']}
                       timeZone="America/New_York"
                     />
                     </div>
