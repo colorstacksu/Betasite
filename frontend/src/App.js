@@ -8,17 +8,9 @@ import ExecutiveBoard from "./Eboard.jsx";
 import Footer from "./Footer.jsx";
 import Events from "./Events.jsx";
 import Sponsors from "./Sponsors.jsx";
+import DatabaseTest from "./DatabaseTest.jsx";
 import images from "./Images.jsx";
-// function App() {
-//   return (
-//     <div className="App">
-//       <CustomNavbar />
-//         <HeroSection />
-//       {/* Add more components here */}
-//     </div>
-//   );
-
-// }
+//This is the main component of the website where all the other components come together
 function App() {
   return (
     <Router>
@@ -30,7 +22,9 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/eboard" element={<ExecutiveBoard />} />
           <Route path="/events" element={<Events />} />
+          <Route path="/database" element={<DatabaseTest />} />
           <Route path="/sponsors" element={<Sponsors />} />
+          
           {/* Add more routes as needed */}
         </Routes>
       </div>

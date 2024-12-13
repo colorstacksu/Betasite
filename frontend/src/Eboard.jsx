@@ -5,19 +5,20 @@ import images from "./Images.jsx";
 import { FaLinkedin } from "react-icons/fa";
 import "./App.css";
 
-// const HeroSection = () => (
-//   <div className="hero-section" style={{ backgroundImage: 'url(/path/to/your/background-image.jpg)', padding: '100px 0', textAlign: 'center', color: '#fff' }}>
-//     <h1>Meet the Student Leaders of ColorStack at KSU!</h1>
-//   </div>
-// );
+//This code is responsible for the Eboard page which implements many relevant concepts from 
+//Introductory Programming courses such as arrays and loops
 
 const ExecutiveBoard = () => {
+
+  //stores the names of the teams within the board
   const teams = [
     "Executive Board",
     "Internal Team",
     "External Team",
     "Academic Team",
   ];
+
+  //array for description for each board member
   const boardMembers = [
     {
       name: "Helena Patino Cruz",
@@ -128,7 +129,9 @@ const ExecutiveBoard = () => {
                 filter: "brightness(70%)",
               }} src={images.eboard1} alt="" />
       </div>
-      {rows.map((row, rowIndex, team) => (
+
+      {/* This code iterates through rows while keeping track on the current index its on using rowIndex */}
+      {rows.map((row, rowIndex) => (
         <Row
           key={rowIndex}
           className="mb-4"
