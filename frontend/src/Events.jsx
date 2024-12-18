@@ -5,6 +5,7 @@ import "./App.css"; // Ensure the CSS file is named correctly and includes neces
 import images from "./Images";
 import { SiGooglecalendar, SiMicrosoftoutlook } from "react-icons/si";
 import { AddToCalendarButton } from 'add-to-calendar-button-react';
+//Future plan: Connect to MongoDB database instead of using arrays
 
 const upcomingEvents = [
   {
@@ -71,15 +72,6 @@ const eventImages = [
 const Events = () => {
   return (
     <div className="events-section">
-      {/* <div className="hero-section" 
-        style={{ backgroundImage: `url(${images.event4})`, 
-            backgroundSize: '20%', // Adjusts the size of the background image
-            padding: '100px 0', 
-            textAlign: 'center', 
-            color: '#fff' 
-        }}>
-            <h1>Our Events!</h1>
-        </div> */}
       <div
         className="hero-section"
         style={{ padding: "30px 0", textAlign: "center", color: "#000" }}
@@ -131,28 +123,9 @@ const Events = () => {
                 <Card.Body>
                   <Card.Title>{event.title}</Card.Title>
                   <Card.Text>{event.description}</Card.Text>
-                  {/* <a href={event.calendarLink} target="_blank">
-                    <SiGooglecalendar
-                      style={{
-                        width: "40px",
-                        height: "40px",
-                        marginRight: "10px",
-                      }}
-                    />
-                  </a> */}
-                  {/* <a href={event.calendarLink2} target="_blank">
-                    <SiMicrosoftoutlook
-                      style={{
-                        width: "40px",
-                        height: "40px",
-                        marginLeft: "10px",
-                      }}
-                    />
-                  </a> */}
-                  {/* <Button href={event.calendarLink} variant="outline-warning">Add event to calendar</Button> */}
                   <br />
                   <div className="d-flex justify-content-center">
-                    <AddToCalendarButton
+                    <AddToCalendarButton // this is how the event info is mapped to the Calendar, using the "AddToCalendarButton" tab
                       name={event.title}
                       startDate={event.date}
                       startTime={event.startTime}
@@ -172,21 +145,6 @@ const Events = () => {
       </Container>
 
       <br />
-      {/* Weekly Events Section */}
-      {/* <Container className="my-5">
-        <h3 className="text-center">Weekly Events</h3>
-        <Row>
-          {weeklyEvents.map(event => (
-            <Col md={4} key={event.id}>
-              <div className="weekly-event">
-                <h5>{event.day}</h5>
-                <p>{event.event}</p>
-              </div>
-            </Col>
-          ))}
-        </Row>
-      </Container> */}
-
       {/* Past Events Carousel */}
       <Container className="my-5">
         <h2 style={{ marginBottom: "40px" }} className="text-center custom-h1">

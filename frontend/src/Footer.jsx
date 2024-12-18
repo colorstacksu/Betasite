@@ -14,12 +14,6 @@ const Footer = () => {
           <p>All Rights Reserved</p>
         </Col>
 
-        {/* <Col md={3} sm={12} className="mb-3">
-          <h6>Interested in joining ColorStack at KSU?</h6>
-          <p>Click the link below to go straight to our Discord community</p>
-          {/* Button adjusted for mobile 
-        </Col> */}
-
         <Col md={4} sm={12} className="mb-3">
           <h4>Navigation</h4>
           <ul className="list-unstyled text-decoration-none">

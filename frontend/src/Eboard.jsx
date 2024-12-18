@@ -5,6 +5,8 @@ import images from "./Images.jsx";
 import { FaLinkedin } from "react-icons/fa";
 import "./App.css";
 
+//Future Plan: Connect the Executive Board info to Database instead of creating arrays
+
 //This code is responsible for the Eboard page which implements many relevant concepts from 
 //Introductory Programming courses such as arrays and loops
 
@@ -131,13 +133,14 @@ const ExecutiveBoard = () => {
       </div>
 
       {/* This code iterates through rows while keeping track on the current index its on using rowIndex */}
+      {/* "Rows" is iterated through and each each object is temporarily stored in row */}
       {rows.map((row, rowIndex) => (
         <Row
           key={rowIndex}
           className="mb-4"
           style={{
             borderRadius: "30px",
-            backgroundColor: rowIndex % 2 === 0 ? "#b2f0e" : "#fff",
+            backgroundColor: rowIndex % 2 === 0 ? "#b2f0e" : "#fff", //changes the background color of even and odd rows accordingly
           }}
         >
           <div style={{ display: "flex", justifyContent: "center" }}>
@@ -158,7 +161,7 @@ const ExecutiveBoard = () => {
               >
                 <Card.Img
                   variant="top"
-                  src={member.imgSrc}
+                  src={member.imgSrc} 
                   alt={member.name}
                   style={{
                     marginTop: "5%",

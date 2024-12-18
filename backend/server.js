@@ -18,12 +18,11 @@ mongoose.connect(process.env.MONGO_URI, {
 
 // Student Schema
 const studentSchema = new mongoose.Schema({
-    // name: String,
-    // major: String,
-    geometry: Object,
-    name: String
+    name: String,
+    major: String,
+    year: String
 },
-{ collection: "neighborhoods" });
+{ collection: "Members" });
 
 const Student = mongoose.model("N", studentSchema);
 
