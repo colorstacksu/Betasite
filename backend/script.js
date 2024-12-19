@@ -13,7 +13,7 @@ const COLLECTION_NAME = 'Members'; // Collection name
 // Google Sheets authentication
 async function getGoogleSheetData() {
     const auth = new google.auth.GoogleAuth({
-        keyFile: './winged-journey-444903-k4-edb13b54fc43.json',
+        keyFile: process.env.GOOGLE_APPLICATION_CREDENTIALS,
         scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly'],
     });
 
