@@ -6,6 +6,20 @@ It will:
 - Give an overview of the goal of ColorStck KSU as well as provide access to Information about the ColorStack National Organization
 - Provide access to registration of members for both National and the Kennesaw State University Chapter
 
+# Table of Contents
+- [Introduction](#betasite)
+- [Teams](#teams)
+- [Pages](#pages)
+    - [Homepage](#hero-section)
+
+# Teams
+#### For Development:
+- Frontend (React.js, HTML, CSS, possibly Tailwind)
+- Backend (Node.js, MongoDB, Express.js, Javascript, Jest(coming soon), Source Control (Git, Github))
+- UI/UX Design (Figma)
+
+#### For Management:
+- Product Owner (Notion)
 
 # Pages
 - Homepage
@@ -17,7 +31,7 @@ It will:
 - Footer
 
 ## Homepage (HeroSection.js)
-#### In bold is the template for how we need to document information for each page
+_In bold is the template for how we need to document information for each webpage_
 
 ##### Give a general description of what the page looks like 
 ##### and its purpose (what does it do who may use it)
