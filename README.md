@@ -10,19 +10,30 @@ It will:
 - [Introduction](#betasite)
 - [Teams](#teams)
 - [Pages](#pages)
-    - [Homepage](#hero-section)
+    - [Homepage](#homepage-(HeroSection.js))
 
 # Teams
-#### For Development:
-- Frontend (React.js, HTML, CSS, possibly Tailwind)
-- Backend (Node.js, MongoDB, Express.js, Javascript, Jest(coming soon), Source Control (Git, Github))
-- UI/UX Design (Figma)
+- #### Product Owners
+    __Lead:__ 
+    - Members:
+        - John Smith
+- #### Frontend
+    __Lead:__
+    - Members:
+        - John Smith
+- #### Backend 
+    __Lead: Constant Nortey Jr.__
+    - Members:
+        - __Gabriel Nobles__
+- #### UI/UX Design
+    __Lead:__ 
+    - Members:
+        - John Smith
 
-#### For Management:
-- Product Owner (Notion)
+
 
 # Pages
-- Homepage
+- [__Homepage__](https://colorstacksu.vercel.app/)
 - Navbar
 - About
 - Events
