@@ -1,0 +1,15 @@
+MongoDB database documentation
+#my focus: work on events or eboard page. describe what the code does
+describe what ay interactive feature(buttons, drop downs, carousel, tec) is doing
+or what happens after it is interacted with
+main points
+running the backend server
+connecting to the website
+calling and leveraging the API's
+searching through the data and updating the information 
+
+App.js
+import statements import methods from the different pages in the App. For example,
+import About from "./About.jsx";
+
+
