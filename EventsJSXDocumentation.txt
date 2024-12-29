@@ -1,0 +1,3 @@
+Events.jsx documentation
+
+upcoming events is a const variable tha holds a list of event objects that 
