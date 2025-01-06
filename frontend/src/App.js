@@ -9,16 +9,7 @@ import Footer from "./Footer.jsx";
 import Events from "./Events.jsx";
 import Sponsors from "./Sponsors.jsx";
 import images from "./Images.jsx";
-// function App() {
-//   return (
-//     <div className="App">
-//       <CustomNavbar />
-//         <HeroSection />
-//       {/* Add more components here */}
-//     </div>
-//   );
 
-// }
 function App() {
   return (
     <Router>

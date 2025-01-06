@@ -67,21 +67,6 @@ const About = () => {
           </Col>
         </Row>
       </div>
-
-
-      {/* Gallery */}
-      {/* <div className="gallery">
-        <h2>Our Gallery</h2>
-        <Row>
-          <Col md={2}><Image src= {gallery1} thumbnail /></Col>
-          <Col md={2}><Image src= {gallery2} thumbnail /></Col>
-          <Col md={2}><Image src= {gallery3} thumbnail /></Col>
-          <Col md={2}><Image src= {gallery4} thumbnail /></Col>
-          <Col md={2}><Image src= {gallery5} thumbnail /></Col>
-        </Row>
-      </div> */}
-
-      {/* Footer */}
       
 
     </div>
