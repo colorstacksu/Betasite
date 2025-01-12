@@ -1,5 +1,6 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+// import { Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Card, Button, Carousel } from "react-bootstrap";
 import "./App.css";
 import images from "./Images";
 
@@ -45,7 +46,31 @@ const HeroSection = () => {
           </div>
         </Col>
       </Row>
-
+      {/* <Row>
+        <Container className="my-5" style={{alignContent:"center"}}>
+        <h2 style={{ marginBottom: "40px", alignContent:"center" }} className="text-center custom-h1">
+          Monthly Newsletter
+        </h2>
+        <Row className="justify-content-center">
+                <Card.Img variant="top" src={images.MNJan20251} />
+                <Card.Img variant="top" src={images.MNJan20252} />
+        </Row>
+      </Container>
+      </Row> */}
+      <Container className="my-5" style={{alignContent:"center"}}>
+        <h2 style={{ marginBottom: "40px", alignContent:"center" }} className="text-center custom-h1">
+          Monthly Newsletter
+        </h2>
+        <Row className="justify-content-center">
+      <Col md={4}>
+                <Card.Img variant="top" src={images.MNJan20251} style={{filter:"none"}}/>
+                
+            </Col>
+            <Col md={4}>
+                <Card.Img variant="top" src={images.MNJan20252} style={{filter:"none"}}/>
+            </Col>
+            </Row>
+            </Container>
       {/* Section 2 */}
       <Row className="justify-content-center position-relative">
         <h1 className="custom-h1">RSVP for our Upcoming Events Here!</h1>

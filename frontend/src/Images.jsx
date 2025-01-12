@@ -41,6 +41,8 @@ import GBM from "./assets/Flyers/GBM.png"
 import SpookyMovNight from "./assets/Flyers/SpookyMovNight.png"
 import Smiski from "./assets/icons/smiski.png"
 import VisionBoardNight from "./assets/Flyers/VisionBoardNight.png"
+import MNJan20251 from "./assets/Flyers/MNJan20251.png";
+import MNJan20252 from "./assets/Flyers/MNJan20252.png";
 
 const images = {
   helenaImage,
@@ -85,7 +87,9 @@ const images = {
   GBM,
   SpookyMovNight,
   Smiski,
-  VisionBoardNight
+  VisionBoardNight,
+  MNJan20251,
+  MNJan20252
 };
 
 export default images;
