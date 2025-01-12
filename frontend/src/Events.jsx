@@ -1,7 +1,7 @@
 import React from "react";
 import "./Events.css";
 import { Container, Row, Col, Card, Button, Carousel } from "react-bootstrap";
-import "./App.css"; // Ensure the CSS file is named correctly and includes necessary styles
+import "./App.css"; //Ensure the CSS file is named correctly and includes necessary styles
 import images from "./Images";
 import { SiGooglecalendar, SiMicrosoftoutlook } from "react-icons/si";
 import { AddToCalendarButton } from 'add-to-calendar-button-react';
