@@ -15,7 +15,7 @@ const upcomingEvents = [
     title: "Vision Board Night with Nvidia",
     location: "ETC Q310",
     description:
-      "Come out for our October GBM and get informed on behavioral interview prep with Factset!",
+      "Join us for our first GBM of the year and start 2025 with clarity--its vision board night with NVIDIA. RSVP with Link on Homepage",
     imageUrl: images.VisionBoardNight,
   },
   // {
