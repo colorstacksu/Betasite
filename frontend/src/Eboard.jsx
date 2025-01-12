@@ -126,7 +126,7 @@ const ExecutiveBoard = () => {
                 width: "60vw",
                 height: "auto",
                 filter: "brightness(70%)",
-              }} src={images.eboard1} alt="" />
+              }} src={images.eboard2} alt="" />
       </div>
       {rows.map((row, rowIndex, team) => (
         <Row

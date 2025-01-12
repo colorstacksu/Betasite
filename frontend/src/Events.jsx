@@ -9,36 +9,36 @@ import { AddToCalendarButton } from 'add-to-calendar-button-react';
 const upcomingEvents = [
   {
     id: 1,
-    date: "2024-10-15",
-    startTime: "15:00",
-    endTime: "16:00",
-    title: "General Board Meeting",
-    location: "Atrium Building Room 130",
+    date: "2025-01-14",
+    startTime: "18:30",
+    endTime: "20:00",
+    title: "Vision Board Night with Nvidia",
+    location: "ETC Q310",
     description:
       "Come out for our October GBM and get informed on behavioral interview prep with Factset!",
-    imageUrl: images.GBM,
+    imageUrl: images.VisionBoardNight,
   },
-  {
-    id: 2,
-    date: "2024-10-23",
-    startTime: "12:00",
-    endTime: "13:00",
-    location: "Atrium Building Room 131",
-    title: "Leetcode Learning Session",
-    description:
-      "Join us for the second session in our leetcode series! Learn about leetcode and work in groups fofr solutions",
-    imageUrl: images.LeetCodeSesh,
-  },
-  {
-    id: 3,
-    date: "2024-10-29",
-    startTime: "18:30",
-    endTime: "19:30",
-    location: "ETC+Room+106",
-    title: "Spooky Boots Movie Night",
-    description: "Joim us for a scary time with a spooky movie screening!",
-    imageUrl: images.SpookyMovNight
-  },
+  // {
+  //   id: 2,
+  //   date: "2024-10-23",
+  //   startTime: "12:00",
+  //   endTime: "13:00",
+  //   location: "Atrium Building Room 131",
+  //   title: "Leetcode Learning Session",
+  //   description:
+  //     "Join us for the second session in our leetcode series! Learn about leetcode and work in groups fofr solutions",
+  //   imageUrl: images.LeetCodeSesh,
+  // },
+  // {
+  //   id: 3,
+  //   date: "2024-10-29",
+  //   startTime: "18:30",
+  //   endTime: "19:30",
+  //   location: "ETC+Room+106",
+  //   title: "Spooky Boots Movie Night",
+  //   description: "Joim us for a scary time with a spooky movie screening!",
+  //   imageUrl: images.SpookyMovNight
+  // },
 ];
 
 const weeklyEvents = [
@@ -55,7 +55,10 @@ const pastEventsImages = [
   images.IceCreamSocial,
   images.LeetCodeSesh,
   images.TechPrepSHPEATT,
-  images.LateNightNvidia
+  images.LateNightNvidia,
+  images.GBM,
+  images.SpookyMovNight,
+  images.LeetCodeSesh
   // Include up to 10 image paths
 ];
 
@@ -71,15 +74,6 @@ const eventImages = [
 const Events = () => {
   return (
     <div className="events-section">
-      {/* <div className="hero-section" 
-        style={{ backgroundImage: `url(${images.event4})`, 
-            backgroundSize: '20%', // Adjusts the size of the background image
-            padding: '100px 0', 
-            textAlign: 'center', 
-            color: '#fff' 
-        }}>
-            <h1>Our Events!</h1>
-        </div> */}
       <div
         className="hero-section"
         style={{ padding: "30px 0", textAlign: "center", color: "#000" }}
@@ -119,11 +113,11 @@ const Events = () => {
       {/* Event Banner with Text Overlay */}
 
       {/* Upcoming Events Section */}
-      <Container className="my-5">
-        <h2 style={{ marginBottom: "40px" }} className="text-center custom-h1">
+      <Container className="my-5" style={{alignContent:"center"}}>
+        <h2 style={{ marginBottom: "40px", alignContent:"center" }} className="text-center custom-h1">
           Upcoming Events
         </h2>
-        <Row>
+        <Row className="justify-content-center">
           {upcomingEvents.map((event) => (
             <Col md={4} key={event.id}>
               <Card>
@@ -131,25 +125,6 @@ const Events = () => {
                 <Card.Body>
                   <Card.Title>{event.title}</Card.Title>
                   <Card.Text>{event.description}</Card.Text>
-                  {/* <a href={event.calendarLink} target="_blank">
-                    <SiGooglecalendar
-                      style={{
-                        width: "40px",
-                        height: "40px",
-                        marginRight: "10px",
-                      }}
-                    />
-                  </a> */}
-                  {/* <a href={event.calendarLink2} target="_blank">
-                    <SiMicrosoftoutlook
-                      style={{
-                        width: "40px",
-                        height: "40px",
-                        marginLeft: "10px",
-                      }}
-                    />
-                  </a> */}
-                  {/* <Button href={event.calendarLink} variant="outline-warning">Add event to calendar</Button> */}
                   <br />
                   <div className="d-flex justify-content-center">
                     <AddToCalendarButton
@@ -196,7 +171,7 @@ const Events = () => {
           {/* First Carousel */}
           <Col md={6}>
             <Carousel>
-              {pastEventsImages.slice(0, 4).map((image, index) => (
+              {pastEventsImages.slice(0, 6).map((image, index) => (
                 <Carousel.Item key={index}>
                   <img
                     className="d-block w-100 img-inc"
@@ -212,7 +187,7 @@ const Events = () => {
           {/* Second Carousel */}
           <Col md={6}>
             <Carousel>
-              {pastEventsImages.slice(4, 8).map((image, index) => (
+              {pastEventsImages.slice(6, 11).map((image, index) => (
                 <Carousel.Item key={index}>
                   <img
                     className="d-block w-100 img-inc"

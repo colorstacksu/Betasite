@@ -19,8 +19,8 @@ const About = () => {
   return (
     <div className="hero-section">
       <div className="homepage-image">
-        <Container className='main-img-txt'>
-          <Card.Text className='stats-txt'><h1 style={{fontSize:'2.5rem'}}>Empowering Black and Latino Students to Launch Successful Technical Careers</h1> 
+        <Container className='main-img-txt' style={{color:"black"}}>
+          <Card.Text className='stats-txt'><h1 style={{fontSize:'2.5rem', }}>Empowering Black and Latino Students to Launch Successful Technical Careers</h1> 
            </Card.Text>
           <p>Join ColorStack at Kennesaw State University</p>
           <Button href='https://www.colorstack.org/' variant="warning" className='join-us-btn'>National Organization</Button>

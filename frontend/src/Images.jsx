@@ -4,7 +4,7 @@ import amiyahImage from "./assets/headshots/amiyah1.jpg";
 import kevynImage from "./assets/headshots/kevyn1.jpg";
 import denniseImage from "./assets/headshots/dennise3.jpg";
 import denzelImage from "./assets/headshots/denzel1.jpg";
-import ramonImage from "./assets/headshots/ramon3.jpg";
+import ramonImage from "./assets/headshots/ramon1.jpg";
 import lisbethImage from "./assets/headshots/lisbeth.jpg";
 import constantImage from "./assets/headshots/constant1.jpg";
 import philipImage from "./assets/headshots/philip.jpg";
@@ -30,6 +30,7 @@ import UberLogo from "./assets/icons/UberLogo.png";
 import OwlKSU from "./assets/icons/OwlKSU.png";
 import NvidiaLogo from "./assets/icons/NvidiaLogo.png";
 import ColorstackBackground from "./assets/icons/ColorstackBackground.png";
+import CodePathLogo from "./assets/icons/codepathlogo1.png";
 import LateNightNvidia from "./assets/Flyers/LateNightNvidia.png";
 import TechPrepSHPEATT from "./assets/Flyers/TechPrepSHPEATT.png";
 import StudySesh1008 from "./assets/Flyers/StudySesh1008.png";
@@ -38,6 +39,8 @@ import eboard1 from "./assets/eboard/eboard1.JPG"
 import eboard2 from "./assets/eboard/eboard2.JPG"
 import GBM from "./assets/Flyers/GBM.png"
 import SpookyMovNight from "./assets/Flyers/SpookyMovNight.png"
+import Smiski from "./assets/icons/smiski.png"
+import VisionBoardNight from "./assets/Flyers/VisionBoardNight.png"
 
 const images = {
   helenaImage,
@@ -69,6 +72,7 @@ const images = {
   StudySesh1008,
   TechPrepSHPEATT,
   WelcomeBack,
+  CodePathLogo,
   GoogleResume,
   ResumeWorkshop,
   IceCreamSocial,
@@ -79,7 +83,9 @@ const images = {
   eboard1,
   eboard2,
   GBM,
-  SpookyMovNight
+  SpookyMovNight,
+  Smiski,
+  VisionBoardNight
 };
 
 export default images;

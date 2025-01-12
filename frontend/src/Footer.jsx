@@ -75,7 +75,7 @@ const Footer = () => {
           </div>
           <Row className="justify-content-center">
             <Col xs="auto">
-              <a href="https://discord.gg/Hhb4paWq" target="_blank">
+              <a href="https://discord.gg/ZuJK8SdUVa" target="_blank">
                 <FaDiscord size={30} />
               </a>
             </Col>

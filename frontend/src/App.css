@@ -303,3 +303,90 @@ p {
   border-radius: 5px;
   margin: 2vw 10px;
 }
+
+
+/*Possible Animation*/
+@keyframes move {
+  0% {
+    transform: translateX(-100vw); /* Start off-screen on the left */
+  }
+  100% {
+    transform: translateX(100vw); /* Move to the far-right edge of the viewport */
+  }
+}
+
+.character {
+  position: relative;
+  top: -10%; /* Adjust vertical position */
+  left: 0;
+  animation: move 10s linear infinite;
+  width: 20vh; /* Adjust size */
+  height: 20vw;
+  max-width: 100px; /* Set the maximum width */
+  height: auto;     /* Maintain the aspect ratio */
+  display: block;   /* Ensure it doesn’t overflow */
+  margin: 0 auto;   /* Center the character if needed */
+}
+
+.hero-section {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero-section img {
+  width: 100%;
+  height: auto;
+  filter: brightness(50%);
+}
+
+.custom-h1 {
+  font-size: 6vw;
+  /* Ensures visibility on the image */
+}
+
+@media (min-width: 576px) {
+  .custom-h1 {
+    font-size: 5vw;
+  }
+  
+}
+
+@media (min-width: 768px) {
+  .custom-h1 {
+    font-size: 50px;
+  }
+}
+
+.hero-section .rsvpButton {
+  position: absolute;
+  top: 60%; /* Centered vertically over the image */
+  left: 50%; /* Centered horizontally */
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+.text-container {
+  padding: 10px;
+  color: black;
+  text-align: center;
+}
+
+.text-container p {
+  font-size: 4vw;
+}
+
+@media (min-width: 768px) {
+  .text-container p {
+    font-size: 1.5rem;
+  }
+  
+}
