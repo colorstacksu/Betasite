@@ -5,9 +5,9 @@ import "./App.css"; // Ensure the CSS file is named correctly and includes neces
 import images from "./Images";
 import { SiGooglecalendar, SiMicrosoftoutlook } from "react-icons/si";
 import { AddToCalendarButton } from 'add-to-calendar-button-react';
-//Future plan: Connect to MongoDB database instead of using arrays
+// Future plan: Connect to MongoDB database instead of using arrays
 
-const upcomingEvents = [
+const upcomingEvents = [ 
   {
     id: 1,
     date: "2024-10-15",
