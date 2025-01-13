@@ -15,11 +15,12 @@ const HeroSection = () => {
       <div>
         {/* Animated Characters */}
         <img
-          src={images.Smiski} // Add your character image here
+          src={images.geoSmirk} // Add your character image here
           alt="Character 1"
           className="character img-fluid" 
         />
       </div>
+      
         <Col md={8} className="d-flex flex-column align-items-center">
           <img src={images.eboard1} alt="Background" />
           <div className="text-container">
