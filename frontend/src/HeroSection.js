@@ -79,7 +79,7 @@ const HeroSection = () => {
           {/* Second Image */}
           <img src={images.homepage} alt="Event" />
           {/* RSVP Button Positioned Over the Image */}
-          <button
+          {/* <button
             className="rsvpButton"
             onClick={() =>
               window.open(
@@ -88,8 +88,8 @@ const HeroSection = () => {
               )
             }
           >
-            RSVP: Vision Board Night
-          </button>
+            RSVP: How to Succeed
+          </button> */}
         </Col>
       </Row>
     </div>

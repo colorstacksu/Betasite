@@ -44,6 +44,7 @@ import VisionBoardNight from "./assets/Flyers/VisionBoardNight.png"
 import MNJan20251 from "./assets/Flyers/MNJan20251.png";
 import MNJan20252 from "./assets/Flyers/MNJan20252.png";
 import geoSmirk from "./assets/eboard/geoSmirk.jpg"
+import HowToSucceed from "./assets/Flyers/HowToSucceed.png"
 
 const images = {
   helenaImage,
@@ -91,7 +92,8 @@ const images = {
   VisionBoardNight,
   MNJan20251,
   MNJan20252,
-  geoSmirk
+  geoSmirk,
+  HowToSucceed
 };
 
 export default images;

@@ -9,14 +9,14 @@ import { AddToCalendarButton } from 'add-to-calendar-button-react';
 const upcomingEvents = [
   {
     id: 1,
-    date: "2025-01-14",
-    startTime: "18:30",
-    endTime: "20:00",
-    title: "Vision Board Night with Nvidia",
+    date: "2025-01-21",
+    startTime: "17:00",
+    endTime: "18:30",
+    title: "How to Succeed: School and Recruiting",
     location: "ETC Q310",
     description:
-      "Join us for our first GBM of the year and start 2025 with clarity--its vision board night with NVIDIA. RSVP with Link on Homepage",
-    imageUrl: images.VisionBoardNight,
+      "Do you have questions about recruiting, classes or more? Join us and receive some pro tips for success!",
+    imageUrl: images.HowToSucceed,
   },
   // {
   //   id: 2,
@@ -58,7 +58,8 @@ const pastEventsImages = [
   images.LateNightNvidia,
   images.GBM,
   images.SpookyMovNight,
-  images.LeetCodeSesh
+  images.LeetCodeSesh,
+  images.VisionBoardNight
   // Include up to 10 image paths
 ];
 
