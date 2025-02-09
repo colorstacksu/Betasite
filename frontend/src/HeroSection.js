@@ -64,11 +64,11 @@ const HeroSection = () => {
         </h2>
         <Row className="justify-content-center">
       <Col md={4}>
-                <Card.Img variant="top" src={images.MNJan20251} style={{filter:"none"}}/>
+                <Card.Img variant="top" src={images.MNFeb20251} style={{filter:"none"}}/>
                 
             </Col>
             <Col md={4}>
-                <Card.Img variant="top" src={images.MNJan20252} style={{filter:"none"}}/>
+                <Card.Img variant="top" src={images.MNFeb20252} style={{filter:"none"}}/>
             </Col>
             </Row>
             </Container>
@@ -79,17 +79,17 @@ const HeroSection = () => {
           {/* Second Image */}
           <img src={images.homepage} alt="Event" />
           {/* RSVP Button Positioned Over the Image */}
-          {/* <button
+          <button
             className="rsvpButton"
             onClick={() =>
               window.open(
-                "https://nvidia.eightfold.ai/events/candidate/landing?plannedEventId=5eQmdApVZ",
+                "https://docs.google.com/forms/d/e/1FAIpQLSfK5RYnlCHORdDL3FkwuElCO4d6M3BN2xXh9OJ4cra4PnPEYA/viewform?usp=sharing",
                 "_blank"
               )
             }
           >
-            RSVP: How to Succeed
-          </button> */}
+            RSVP: Black History Month Panel
+          </button>
         </Col>
       </Row>
     </div>

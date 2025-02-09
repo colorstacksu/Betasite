@@ -45,6 +45,9 @@ import MNJan20251 from "./assets/Flyers/MNJan20251.png";
 import MNJan20252 from "./assets/Flyers/MNJan20252.png";
 import geoSmirk from "./assets/eboard/geoSmirk.jpg"
 import HowToSucceed from "./assets/Flyers/HowToSucceed.png"
+import MNFeb20251 from "./assets/Flyers/MNFeb20251.webp";
+import MNFeb20252 from "./assets/Flyers/MNFeb20252.webp";
+import BLMflyer from "./assets/Flyers/BLMflyer.webp";
 
 const images = {
   helenaImage,
@@ -93,7 +96,10 @@ const images = {
   MNJan20251,
   MNJan20252,
   geoSmirk,
-  HowToSucceed
+  HowToSucceed,
+  MNFeb20251,
+  MNFeb20252,
+  BLMflyer
 };
 
 export default images;

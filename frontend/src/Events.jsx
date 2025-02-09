@@ -9,14 +9,14 @@ import { AddToCalendarButton } from 'add-to-calendar-button-react';
 const upcomingEvents = [
   {
     id: 1,
-    date: "2025-01-21",
-    startTime: "17:00",
-    endTime: "18:30",
-    title: "How to Succeed: School and Recruiting",
-    location: "ETC Q310",
+    date: "2025-02-12",
+    startTime: "18:30",
+    endTime: "19:30",
+    title: "Black History Month Panel",
+    location: "Atrium J161",
     description:
-      "Do you have questions about recruiting, classes or more? Join us and receive some pro tips for success!",
-    imageUrl: images.HowToSucceed,
+      "Join us in celebrating Black History Month with a panel of industry professionals!",
+    imageUrl: images.BLMflyer,
   },
   // {
   //   id: 2,
