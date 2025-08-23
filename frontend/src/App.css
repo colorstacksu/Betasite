@@ -1,0 +1,310 @@
+
+.App {
+  text-align: center;
+  width: 100%;
+  background: url("./assets/icons/ColorstackBackground.png");
+  background-size: 35rem;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-brand-text {
+  font-size: 1.1rem; /* Initial font size */
+  transition: font-size 0.3s ease-in-out; /* Smooth transition */
+}
+
+.navbar-brand-text:hover {
+  font-size: 1.4rem; /* Increased font size on hover */
+}
+
+.homeButtons {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.hero-section {
+  position: "relative";
+  text-align: "left";
+  color: "white";
+  margin: 0px;
+}
+.hero-section-events {
+  position: "relative";
+  text-align: "left";
+  color: "white";
+  margin: 0px;
+}
+
+.homepage-image {
+  background: url("./assets/transparentHomepageImg.png");
+  /* background: url("./assets/eboard/eboard2.JPG"); */
+  background-size: cover;
+  height: 100vh;
+  object-fit: cover;
+  margin-bottom: 25px;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.main-img-txt {
+  margin-left: 6rem;
+  /* margin-right: 5rem; */
+  /* font-size: small; */
+  text-align: left;
+  width: 50%;
+  padding-top: 15%;
+}
+
+.hero-section p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.hero-section button {
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 4px 2rem;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.learn-more-btn {
+  margin-left: 1rem;
+  background-color: rgb(243, 243, 243);
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.join-us-btn {
+  margin-left: 1rem;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.stats-num {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.stats-txt {
+  font-size: 100%;
+  font-weight: 400;
+}
+
+.stats-img {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-right: 10%;
+  margin-left: 10%;
+  height: 100%;
+}
+
+.stats {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.mission {
+  text-align: left;
+  /* background-color: #FBF7D0; */
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.mission h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.mission p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.footer-size {
+  height: auto;
+}
+
+/* for About.jsx */
+.main-img-txt {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeIn 1.5s ease-out forwards;
+}
+
+.stats-txt h1 {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-out forwards;
+  animation-delay: 0.3s;
+}
+
+p {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
+.join-us-btn {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-out forwards;
+  animation-delay: 0.7s;
+}
+
+.learn-more-btn {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-out forwards;
+  animation-delay: 0.9s;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* for About Stat */
+.stats .col-md-4 {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeSlideIn 1.5s ease-out forwards;
+}
+
+.stats .col-md-4:nth-child(1) {
+  animation-delay: 0.4s; /* First column */
+}
+
+.stats .col-md-4:nth-child(2) {
+  animation-delay: 0.6s; /* Second column */
+}
+
+.stats .col-md-4:nth-child(3) {
+  animation-delay: 0.8s; /* Third column */
+}
+
+@keyframes fadeSlideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.custom-h1 {
+  margin-top: 20px;
+  font-size: 3em; /* Adjust size as needed */
+  color: #4a90e2; /* Main text color */
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: linear-gradient(135deg, #00c9ff 0%, #92fe9d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fadeIn 1s ease-in-out;
+  padding: 20px;
+  border-bottom: 4px solid #ffcc00; /* Underline effect */
+}
+
+.eboard-custom-h1 {
+  font-size: 2em; /* Adjust size as needed */
+  color: #4a90e2; /* Main text color */
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: linear-gradient(135deg, #00c9ff 0%, #92fe9d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fadeIn 1s ease-in-out;
+  padding: 20px;
+  border-bottom: 4px solid #ffcc00; /* Underline effect */
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.owlPic {
+  width: 5rem;
+}
+
+/* NEW CSS */
+
+.rsvpButton {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  font-size: 0.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 2vw 10px;
+}
+
+.center-table {
+  margin: 0 auto; /* Centers the table horizontally */
+  text-align: center;
+}
